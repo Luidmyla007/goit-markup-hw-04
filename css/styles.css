@@ -56,7 +56,7 @@ html{
     margin-right: auto;
     padding-top: 200px;     
     padding-bottom: 200px;
-    background-image: linear-gradient(to right, rgba(47,48,58,0.37), rgba(47,48,58,0.4)); 
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)); 
     background-image: url(../images/img10.jpg); 
     background-position: center;
     background-size: cover;
@@ -77,9 +77,15 @@ html{
 
 
 .team{
-    
+    padding-top: 94px;
     padding-bottom: 94px;
     
+}
+
+.clients{
+    background-color: var(--accent-text-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .examples{
@@ -285,7 +291,7 @@ letter-spacing: 0.03em;
 .additional-wrap{
     background-color: var(--accent-text-color);
     padding-top: 30px;
- 
+ padding-bottom: 30px;
     text-align: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -539,10 +545,7 @@ padding: 0;
    
 }
 
-.name-button{
-            padding-bottom: 34px;
 
-}
 
 .name-button:last-child:{
     margin-right: 8px;
@@ -571,7 +574,6 @@ margin-bottom: 30px;
 .soc-list{
     display: flex;
     gap: 10px;
-    align-items: center;
     justify-content: center;
 
 }
@@ -579,8 +581,31 @@ margin-bottom: 30px;
 .soc-item{
     width: 44px;
     height: 44px;
-    border-radius: 50%;
+   
 }
 
+.soc-link{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soc-icon{
+    fill: #AFB1B8;
+}
+
+.soc-link:hover, .soc-link:focus{
+    background-color: var(--accent-color);
+}
+
+
+.soc-link:hover .soc-icon,
+.soc-link:focus .soc-icon{
+   fill: var(--accent-text-color);
+}
+   
 
 

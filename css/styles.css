@@ -324,6 +324,7 @@ letter-spacing: 0.03em;
 }
 .choice-all{
     min-width: 73px;
+    
 }
 .choice-web{
     min-width: 125px;
@@ -336,6 +337,15 @@ letter-spacing: 0.03em;
 }
 .choice-marketing{
     min-width: 130px;
+}
+
+.choice-all-name{
+    padding: 6px 25px;
+    
+}
+
+.choice-web-name, .choice-application-name, .choice-design-name, .choice-marketing-name{
+    padding: 6px 22px;
 }
 
 .choice-all:hover, .choice-all:focus {
@@ -372,12 +382,15 @@ letter-spacing: 0.03em;
 .picture{
     text-decoration: none;
     display: block;
-        
+      
 }
 
-.picture-box{
-    box-shadow: 0 4 4 0 rgba(0, 0, 0, 0.25);
+.picture:hover, picture:focus{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+ 
+
 
 .picture-title{
     
@@ -470,6 +483,7 @@ footer .logo-second{
 .footer-soc-list{
     display: flex;
     gap: 10px;
+    
    }
 
    .footer-title{
@@ -493,6 +507,7 @@ footer .logo-second{
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
    }
    .footer-soc-icon{
     fill: #FFFFFF;
@@ -589,18 +604,11 @@ padding: 0;
 
 .buttons{
     display: flex;
-    width: 575px; 
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 50px;
-
-   
-}
-
-
-
-.name-button:last-child:{
-    margin-right: 8px;
+    justify-content: center;
+gap: 8px;
 }
 
 
@@ -671,6 +679,7 @@ margin-bottom: 30px;
     border: 1px solid rgba(175, 177, 184, 1);
     border-radius: 4%;
     box-shadow: rgba(0, 0, 0, 0.25);
+    
 }
 
 .client-link{
@@ -678,6 +687,7 @@ margin-bottom: 30px;
     height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
 .client-icon{
